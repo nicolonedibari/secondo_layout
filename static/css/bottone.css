@@ -1,0 +1,15 @@
+
+.bottone a:link,
+.bottone a:visited,
+.bottone a:hover,
+.bottone a:active {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    line-height: 50px;
+    padding: 14px 33px;
+}
