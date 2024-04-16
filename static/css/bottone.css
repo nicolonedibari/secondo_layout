@@ -9,7 +9,12 @@
     font-weight: normal;
     color: #fff;
     text-decoration: none;
-    background-color: black;
+    background-color: #240202;
     line-height: 50px;
     padding: 14px 33px;
+    background-image: url('file:///C:/Users/Vincenzo%20Annese/Downloads/right-arrow-svgrepo-com%201.svg');
+    background-position: calc(100% - 30px);
+    background-repeat: no-repeat;
 }
+
+
