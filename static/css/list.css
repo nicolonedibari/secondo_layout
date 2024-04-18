@@ -1,0 +1,16 @@
+
+.listComponent li {
+    display: block;
+}
+
+.listComponent ol{
+    list-style: none;
+    color: #707070;
+}
+
+.listComponent a:link,
+.listComponent a:visited,
+.listComponent a:hover,
+.listComponent a:active{
+    color: #FF0000;
+}
