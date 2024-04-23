@@ -14,6 +14,8 @@
     position: relative;
     padding: 14px 33px;
     margin-bottom: 119px;
+    height: 78px;
+    width: 308px;
     /*
     background-image: url('../img/arrow.svg');
     background-position: calc(100% - 30px) center;
@@ -28,7 +30,6 @@
     background-position: calc(100% - 31px);
     width: 28px;
     height: 34px;
-    background-size: 28px 34px;
     position: absolute;
     top: 50%;
     right: 14px;

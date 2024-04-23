@@ -1,6 +1,8 @@
 
 .listComponent li {
     display: block;
+    margin-top: 104px;
+    margin-bottom: 147px;
 }
 
 .listComponent ol{
