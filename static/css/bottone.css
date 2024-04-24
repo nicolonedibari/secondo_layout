@@ -2,38 +2,33 @@
 .bottone a:link,
 .bottone a:visited,
 .bottone a:hover,
-.bottone a:active {
+.bottone a:active{
     display: block;
     font-family: 'Merriweather', serif;
+    width: 308px;
     font-size: 35px;
     font-weight: normal;
     color: #ffffff;
-    text-decoration: none;
     background-color: #240202;
     line-height: 50px;
-    position: relative;
+    text-decoration: none;
     padding: 14px 33px;
+    position: relative;
     margin-bottom: 119px;
     height: 78px;
-    width: 308px;
-    /*
-    background-image: url('../img/arrow.svg');
-    background-position: calc(100% - 30px) center;
-    background-repeat: no-repeat;
-    */
 }
-
+  
 .bottone a::after{
     content: "";
-    display: block;
     background-image: url("../img/arrow.svg");
-    background-position: calc(100% - 31px);
     width: 28px;
+    display: block;
     height: 34px;
+    background-size: 28px 34px;
     position: absolute;
+    right: 31px;
     top: 50%;
-    right: 14px;
-    transform: translateY(-50%);
+    transform: translateY(-50%)
 }
 
 

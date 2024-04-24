@@ -1,13 +1,15 @@
 
-.listComponent li {
-    display: block;
-    margin-top: 104px;
-    margin-bottom: 147px;
+.listComponent li{
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
+    color: #707070;
+    margin-top: 53px;
 }
 
 .listComponent ol{
-    list-style: none;
-    color: #707070;
+    display: block;
+    margin-top: 104px;
+    margin-bottom: 147px;
 }
 
 .listComponent a:link,
@@ -15,4 +17,14 @@
 .listComponent a:hover,
 .listComponent a:active{
     color: #FF0000;
+}
+
+.listComponent hr {
+    border: none; 
+    height: 2px; 
+    background-color: #707070; 
+}
+
+.listComponent li::marker {
+    font-size: 70px; 
 }
