@@ -19,13 +19,13 @@
 ul{
     counter-reset: listItem;
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
 li:before {
     color: #707070;
     font-size: 70px;
-    padding: 0;
-    margin: 0;
     content: ".0" counter(listItem);
     counter-increment: listItem;
 }
