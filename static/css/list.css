@@ -24,6 +24,8 @@ ul{
 li:before {
     color: #707070;
     font-size: 70px;
+    padding: 0;
+    margin: 0;
     content: ".0" counter(listItem);
     counter-increment: listItem;
 }
